@@ -1,7 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Welcome to My Flask App</h1>
-    <ul>
-        <li><a href="{{ url_for('contact') }}">Contact</a></li>
-{% endblock %}
+    <h1>Kavárna</h1>
+
+        <p>Vítejte na stránkách naší kavárny! Nabízíme široký výběr kávy, čaje a sladkostí. Přijďte si užít příjemnou atmosféru a kvalitní nápoje.</p>
+        <p>Kavárna je otevřena v pondělí až pátek od 8:00 do 18:00.</p>
+        <p>Rádi vás vítáme!</p>
+
+    <img src="https://tse4.mm.bing.net/th/id/OIP.Qu9qV030vSBaIdITraxENAHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+
+        <ul>
+        <li><a href="{{ url_for('contact') }}">Kontakt</a></li>
+
+
+
+    {% endblock %}
